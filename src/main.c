@@ -54,6 +54,7 @@ Typedef definitions
 /*******************************************************************************
 Imported global variables and functions (from other files)
 *******************************************************************************/
+int check_one_lap = 0;
 
 /*******************************************************************************
 Exported global variables and functions (to be accessed by other files)

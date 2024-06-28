@@ -203,6 +203,7 @@ UCHAR BCNT_Evaluate( UCHAR mr, UCHAR cp0, UCHAR cp1, UCHAR max )
 	UCHAR	lastcp0;	/* Last input value of cp0 terminal */
 	UCHAR	lastcp1;	/* Last input value of cp1 terminal */
 	UCHAR	count;		/* Count value of binary counter */
+	extern int check_one_lap;
 	
 	/* Last value of cp0 of binary counter is acquired. */
 	lastcp0 = BitMemGet(g_ucBCNT_LastCp0, g_ucBCNT_Count);
@@ -241,6 +242,7 @@ UCHAR BCNT_Evaluate( UCHAR mr, UCHAR cp0, UCHAR cp1, UCHAR max )
 	if (count > max) {
 		/* (Count value of binary counter)<-0 */
 		count = 0;
+		check_one_lap = 1;
 	}
 	
 	/* This value of cp0 of binary counter is preserved. */

@@ -1,6 +1,6 @@
 ****src\main.c
 v2 
-:1719300260
+:1719534821
 #1
 F "__DI" N I!1 T!2 ?18-2 
 T "void" KBV I!2 0x0 
@@ -163,15 +163,15 @@ F "PORT_out" F I!158 T!2 ?232-5 P!159 P!160
 V "" N I!159 O!158 T!113 .1 0x1 
 V "" N I!160 O!158 T!113 .1 0x1 
 F "Clock_Init" F I!161 T!2 ?69-7 
-F "hdwinit" F I!162 T!2 ?70-7 77-1 
+F "hdwinit" F I!162 T!2 ?70-7 78-1 
 F "PORT_Init" F I!163 T!2 ?55-8 
 F "TM00_Init" F I!164 T!2 ?55-9 
 F "MD_INTTM00" F I!165 T!2 ?57-9 
-F "TM_10ms" F I!166 T!113 ?61-9 104-1 
+F "TM_10ms" F I!166 T!113 ?61-9 105-1 
 F "WDT_Init" F I!167 T!2 ?56-10 
-F "WDT_Reset" F I!168 T!2 ?57-10 100-1 
-F "panel_init0" F I!169 T!2 ?40-11 80-1 
-F "panel" F I!170 T!2 ?41-11 97-1 
+F "WDT_Reset" F I!168 T!2 ?57-10 101-1 
+F "panel_init0" F I!169 T!2 ?40-11 81-1 
+F "panel" F I!170 T!2 ?41-11 98-1 
 F "DGOUT_setValue" F I!171 T!2 ?99-12 P!172 P!173 P!174 
 V "" N I!172 O!171 T!113 .1 0x1 
 V "" N I!173 O!171 T!113 .1 0x1 
@@ -321,57 +321,58 @@ V "" N I!316 O!310 T!113 .1 0x1
 V "" N I!317 O!310 T!113 .1 0x1 
 V "" N I!318 O!310 T!113 .1 0x1 
 V "" N I!319 O!310 T!113 .1 0x1 
-F "main" F I!320 T!2 #74-1 !75,84-1-1 ?61-1 
-F "main_loop" F I!321 T!2 #92-1 !93,110-1-1 ?66-1 83-1 
+V "check_one_lap" GN I!320 T!32 !57-1 #57-1 .2 0x2 
+F "main" F I!321 T!2 #75-1 !76,85-1-1 ?62-1 
+F "main_loop" F I!322 T!2 #93-1 !94,111-1-1 ?67-1 84-1 
 ****%CxSystemPath%\inc\builtin.h
 v2 
-:1719300260
+:1719534821
 #2
 ****include\sfr.h
 v2 
-:1719300260
+:1719534821
 #3
 ****include\iodefine.h
 v2 
-:1719300260
+:1719534821
 #4
 ****include\common.h
 v2 
-:1719300260
+:1719534821
 #5
 ****include\config.h
 v2 
-:1719300260
+:1719534821
 #6
 ****include\system.h
 v2 
-:1719300260
+:1719534821
 #7
 ****include\port.h
 v2 
-:1719300260
+:1719534821
 #8
 ****include\timer.h
 v2 
-:1719300260
+:1719534821
 #9
 ****include\watchdogtimer.h
 v2 
-:1719300260
+:1719534821
 #10
 ****include\panel.h
 v2 
-:1719300260
+:1719534821
 #11
 ****include\digitalio.h
 v2 
-:1719300260
+:1719534821
 #12
 ****include\counter.h
 v2 
-:1719300260
+:1719534821
 #13
 ****include\74hc.h
 v2 
-:1719300260
+:1719534821
 #14
