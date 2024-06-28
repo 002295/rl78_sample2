@@ -1,5 +1,5 @@
 品質記録情報
-2024年6月28日 9:37:56
+2024年6月28日 10:30:21
 
 ------ ビルド開始(RL78_Sample2, DefaultBuild) ------
 C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\rlink.exe -subcommand=DefaultBuild\RL78_Sample2.clnk
@@ -7,6 +7,8 @@ W0561018:The evaluation period of CC-RL V1 is valid for the remaining 44 days. A
 W0561018:The evaluation period of CC-RL V1 is valid for the remaining 44 days. After that, functional limit will be applied. Please consider purchasing the product.
 Renesas Optimizing Linker Completed
 ------ ビルド終了(エラー:0個, 警告:2個)(RL78_Sample2, DefaultBuild) ------
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe src\panel.c -cpu=S3 -cref=DefaultBuild -obj_path=DefaultBuild "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F1058A.DVF" -g -g_line -Osize -I include -c -msg_lang=japanese
+W0511186:CC-RL V1のオプション"-Osize"の評価期間は残り44日です。評価期間経過後は、暗黙に"-Olite"指定に変更されます。引き続き"-Osize"を利用したい場合は製品の購入をご検討ください。
 
 --- CommandFile 1 ---
 DefaultBuild\RL78_Sample2.clnk :
@@ -78,11 +80,11 @@ C:\Users\i_shimeno\Desktop\組込み研修\RL78_sample2\RL78_Sample2\DefaultBuil
  C:\Program Files (x86)\Renesas Electronics\CS+\CC
 *メモリ使用量
  *プライベート・ワーキング・セット
-  373 MB
+  378 MB
  *GDIオブジェクト数
-  2399
+  2311
  *USERオブジェクト数
-  1382
+  1350
  *開いているファイル
   8 editors, 8 files, 76 KB
 
@@ -247,9 +249,6 @@ C:\Users\i_shimeno\Desktop\組込み研修\RL78_sample2\RL78_Sample2\RL78_Sample
 デバッグ・ツール情報
  *RL78 シミュレータ
   Debugger Library V8.11.00.03 [21 Nov 2023]
-  RL78 Simulator V5.09.00.02 [31 Oct 2023]
-  Simulator ChipFile [R5F1058A] V1.06.00.01
-  RL78_G11 Simulator V2.09.00.02 [31 Oct 2023]
   
 
 その他のツール情報
