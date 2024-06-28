@@ -242,7 +242,12 @@ UCHAR BCNT_Evaluate( UCHAR mr, UCHAR cp0, UCHAR cp1, UCHAR max )
 	if (count > max) {
 		/* (Count value of binary counter)<-0 */
 		count = 0;
-		check_one_lap = 1;
+		if (check_one_lap == 1) {
+			check_one_lap = 0;
+		} else {
+			check_one_lap = 1;
+		}
+			
 	}
 	
 	/* This value of cp0 of binary counter is preserved. */
